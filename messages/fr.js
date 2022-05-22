@@ -54,6 +54,7 @@ Blockly.Msg.NODE_DONE = "message terminé";
 Blockly.Msg.NODE_DONE_TOOLTIP = "Le traitement du message est terminé.";
 Blockly.Msg.NODE_ENV = "obtenir la variable d’environnement %1";
 Blockly.Msg.NODE_ENV_TOOLTIP = "Accéder à la valeur d’une variable d’environnement.";
+
 // =========================================================================================
 // Buffer blocks
 // =========================================================================================
@@ -81,6 +82,7 @@ Blockly.Msg.BUFFER_GET_INDEX = "obtenir l’octet à l’index %1 du tampon %2";
 Blockly.Msg.BUFFER_GET_INDEX_TOOLTIP = "Obtenir la valeur de l’octet à l’index spécifié du tampon (buffer).";
 Blockly.Msg.BUFFER_SET_INDEX = "fixer l’octet l’index %1 du tampon %2 à %3";
 Blockly.Msg.BUFFER_SET_INDEX_TOOLTIP = "Mettre l’octet à l’index spécifié du tampon (buffer) à une certaine valeur.";
+
 // =========================================================================================
 // Objects (JSON) blocks
 // =========================================================================================
@@ -93,6 +95,7 @@ Blockly.Msg.OBJECT_CREATE_TOOLTIP = "Crée un nouvel objet, éventuellement avec
 Blockly.Msg.OBJECT_FIELD_NAME = "nom de la propriété";
 Blockly.Msg.OBJECT_KEYS = "obtenir les clés de %1";
 Blockly.Msg.OBJECT_KEYS_TOOLTIP = "Obtenir toutes les clés de l’objet.";
+
 // =========================================================================================
 // Extra blocks
 // =========================================================================================
@@ -123,6 +126,7 @@ Blockly.Msg.MISC_COMMENT = "commentaire %1";
 Blockly.Msg.MISC_COMMENT_TOOLTIP = "Ajouter un commentaire pour expliquer comment ça fonctionne.";
 Blockly.Msg.MISC_JSMULTILINE = "code JS multiligne %1";
 Blockly.Msg.MISC_JSMULTILINE_TOOLTIP = "Tapez du code JavaScript multiligne directement si aucun bloc ne peut vous aider.";
+
 // =========================================================================================
 // Datetime blocks
 // =========================================================================================
@@ -151,6 +155,7 @@ Blockly.Msg.DATETIME_FORMAT = "convertir le timestamp %1 au format %2";
 Blockly.Msg.DATETIME_FORMAT_TOOLTIP = "Convertir un timestamp au format spécifié.";
 Blockly.Msg.DATETIME_UTC = "UTC";
 Blockly.Msg.DATETIME_LOCAL = "local";
+
 // =========================================================================================
 // Timer blocks
 // =========================================================================================
@@ -170,17 +175,3 @@ Blockly.Msg.TIMER_TIMER_MS = "msec";
 Blockly.Msg.TIMER_TIMER_SEC = "sec";
 Blockly.Msg.TIMER_TIMER_MIN = "min";
 Blockly.Msg.TIMER_NONE_SELECTED = "aucun";
-
-// Overriding 7 strings that have a translation problem in French in the upstream Blockly project
-// for versions 5.20210325.0 (Q1 2021), 5.20210325.1 (Q1 2021 Patch 1) and 6.20210701.0 (Q2 2021).
-// See https://github.com/google/blockly/issues/5399
-// TODO: When there will be a new Blockly release, check that the `msg/js/fr.js` does not
-//  contain `<!-- -->`, then bump the minimal Blockly dependency version to that release,
-//  and remove the following 7 lines.
-Blockly.Msg["LISTS_GET_INDEX_TAIL"] = "";
-Blockly.Msg["LISTS_GET_SUBLIST_TAIL"] = "";
-Blockly.Msg["MATH_ONLIST_HELPURL"] = "";
-Blockly.Msg["ORDINAL_NUMBER_SUFFIX"] = "";
-Blockly.Msg["PROCEDURES_DEFNORETURN_DO"] = "";
-Blockly.Msg["TEXT_CHARAT_TAIL"] = "";
-Blockly.Msg["TEXT_GET_SUBSTRING_TAIL"] = "";
